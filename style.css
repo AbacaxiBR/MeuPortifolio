@@ -1,0 +1,40 @@
+h1 {
+    color: limegreen;
+}
+
+
+.header{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    background-color: limegreen;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+p,h2{
+    text-align: center;
+    color: limegreen;
+    border: solid;
+}
+
+body{
+    background-color: lightgoldenrodyellow
+}
